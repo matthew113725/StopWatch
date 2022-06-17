@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: steelblue ;
+}
+
+.wrapper {
+    user-select: none;
+}
+
+.wrapper .time {
+    height: 150px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.1)
+    
+}
+
+.wrapper .time span {
+    width: 100px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.wrapper .buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    margin: 0 10px;
+    color:cornflowerblue;
+    background: beige;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.1)
+}
+
+
+.buttons button.inactive {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+.words {
+    font-size: 50px;
+    padding-bottom: 30px;
+    color: ivory;
+    text-align: center;
+}
